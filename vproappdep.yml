@@ -19,7 +19,7 @@ spec:
         image: mteleb6464/vprofileapp
         ports:
         - name: vproapp-port
-          containerPort: 8080
+          containerPort: 8089
       initContainers:
       - name: init-mydb
         image: busybox
